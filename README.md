@@ -620,31 +620,6 @@ git checkout -b feature/your-feature-name
 - Keep PRs focused and reasonably sized
 - Ensure CI/CD checks pass
 
-## Project Structure
-
-```
-job-application-evaluator/
-├── src/
-│   ├── index.ts              # Main application entry
-│   ├── routes/               # API endpoints
-│   ├── services/             # Business logic
-│   ├── workers/              # RabbitMQ consumers
-│   ├── lib/                  # Utilities and helpers
-│   └── types/                # TypeScript type definitions
-├── prisma/
-│   ├── schema.prisma         # Database schema
-│   └── migrations/           # Database migrations
-├── generated/
-│   └── prisma/               # Generated Prisma client
-├── .env.example              # Environment template
-├── package.json
-└── tsconfig.json
-```
-
-## License
-
-[MIT License](LICENSE)
-
 ## Support
 
 For issues, questions, or contributions, please visit:
