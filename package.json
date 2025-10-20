@@ -1,0 +1,25 @@
+{
+  "name": "cv-evaluator",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.8",
+    "@chroma-core/openai": "^0.1.7",
+    "@prisma/client": "^6.17.1",
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^24.8.1",
+    "amqplib": "^0.10.9",
+    "chromadb": "^3.0.17",
+    "dotenv": "^17.2.3",
+    "hono": "^4.10.1",
+    "openai": "^6.5.0",
+    "pdf-parse": "^2.4.3",
+    "prisma": "^6.17.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
